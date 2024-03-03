@@ -10,6 +10,11 @@ import java.util.Map;
 @Builder
 public class CreateOrder {
     private int customerId;
+
+    //재고 개수와의 비교 확인을 위해 추가
+    private int storeId;
+
+
     private Map<Integer, Integer> quantityByProduct;
 
 }
