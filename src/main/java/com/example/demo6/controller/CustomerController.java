@@ -65,8 +65,8 @@ public class CustomerController {
                         .address(address)
                         .name(name)
                         .phoneNumber(phoneNumber)
-                        .build()
-        ));
+                        .build())
+        );
     }
     //들어온 데이터가 일정한 형태로 처리됨
 
